@@ -13,7 +13,7 @@ export default function Familia(props){
             {/* {React.cloneElement(props.children, {...props})} */}
 
             {
-                React.Children.map((el, i) => {
+                props.children.map((el, i) => {
                     return cloneElement(el, {...props, key: i});
                 })
             }
