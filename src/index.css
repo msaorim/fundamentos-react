@@ -1,8 +1,9 @@
 body {
     font-family: Oswald;
-    background-color: rgb(9, 1, 39);
+    background-color: #222;
     color: #fff;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 h1 {
@@ -10,6 +11,5 @@ h1 {
 }
 
 h2, h3 {
-    font-weight: 200;
     margin: 0;
 }

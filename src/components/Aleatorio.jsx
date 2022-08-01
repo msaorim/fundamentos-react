@@ -7,9 +7,10 @@ export default function Aleatorio(props) {
     return (
             <>
             <h2>Valor Aleatório</h2>
-            <p><strong>Valor Mínimo: </strong>{min}</p>
-            <p><strong>Valor Máximo: </strong>{max}</p>
-            <p><strong>Valor Escolhido: </strong>{aleatorio}</p>
+            <p>
+                <strong>Valor Mínimo: </strong>{min}<br />
+                <strong>Valor Máximo: </strong>{max}<br />
+                <strong>Valor Escolhido: </strong>{aleatorio}</p>
         </>
 
     )

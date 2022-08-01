@@ -6,8 +6,10 @@ export default function ComParametro(props){
     return(
         <div>
             <h2>{props.titulo}</h2>
-            <p>{props.aluno} tem a nota: {props.nota}</p>
-            <p>Resultado: {status}</p>
+            <p>
+                {props.aluno} tem a nota: {props.nota}<br />
+                Resultado: <strong>{status}</strong>
+            </p>
         </div>
     )
 }
